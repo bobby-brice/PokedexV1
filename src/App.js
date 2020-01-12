@@ -1,5 +1,5 @@
 import React, { Component }from 'react';
-import './App.css';
+import './css/index.css';
 import Pokegame from './components/Pokegame';
 import Header from './components/Header';
 
