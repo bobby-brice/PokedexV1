@@ -50,5 +50,31 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .Pokecard-title {
   color: blue;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.Pokedex-winner {
+  color: green;
+}
+
+.Pokedex-loser {
+  color: rgb(201, 74, 15);
+}
+
+.Pokecard-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #eceff1;
+}
+
+.Pokecard img {
+  transition: all ease 500ms;
+}
+.Pokecard img:hover {
+  transform: scale(1.25);
 }
 
